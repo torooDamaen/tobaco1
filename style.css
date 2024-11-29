@@ -1,0 +1,89 @@
+
+
+p{
+    line-height: 25px;
+}
+
+div{
+    background-color: rgb(211, 169, 169);
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+.farm{
+    margin: 100px 0 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.farm>img{
+    float: left;
+    
+}
+
+.main{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    border: 5px solid rgb(190, 149, 149);
+}
+
+#foot{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    clear: both;
+    background-color: rgb(114, 71, 71);
+    width: 100%;
+}
+
+#one {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    
+    font-size: 2em;
+  }
+
+  body{
+    background-color: rgb(80, 46, 46);
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .farm>img{
+        height: 100px;
+        
+    }
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .farm>img{
+        height: 100px;
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+    .farm>img{
+        height: 150px;
+        
+    }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .farm>img{
+        height: 200px;
+        
+    }
+}
+@media (min-width: 1601px) {
+    .farm>img{
+        
+        
+    }
+}
